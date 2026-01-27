@@ -54,7 +54,7 @@ export default function RegisterPage() {
           >
             {/* Logo */}
             <div className="flex justify-center">
-              <Image src={LOGO} alt="Logo" width={120} height={120} priority />
+              <Image src={LOGO} alt="Logo" width={100} height={100} priority />
             </div>
 
             {/* Title */}

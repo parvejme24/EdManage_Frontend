@@ -57,7 +57,7 @@ export default function LoginPage() {
           >
             {/* Logo */}
             <div className="flex justify-center">
-              <Image src={LOGO} alt="Logo" width={120} height={120} priority />
+              <Image src={LOGO} alt="Logo" width={100} height={100} priority />
             </div>
 
             {/* Title */}
@@ -124,7 +124,7 @@ export default function LoginPage() {
                   {/* Forgot Password */}
                   <div className="mt-1 text-right">
                     <Link
-                      href="/forgot-password"
+                      href="/auth/forget-password"
                       className="text-sm text-emerald-600 hover:underline"
                     >
                       Forgot password?
